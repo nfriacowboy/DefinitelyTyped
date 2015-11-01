@@ -1,54 +1,43 @@
-DefinitelyTyped
-===============
+# DefinitelyTyped [![Build Status](https://travis-ci.org/borisyankov/DefinitelyTyped.png?branch=master)](https://travis-ci.org/borisyankov/DefinitelyTyped)
 
-TypeScript type definitions repository for popular JavaScript libraries.
+[![Join the chat at https://gitter.im/borisyankov/DefinitelyTyped](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/borisyankov/DefinitelyTyped?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-The project aims to provide *high quality* definitions for the most popular libraries out there.
+> The repository for *high quality* TypeScript type definitions.
 
-Complete
---------
-* [AngularJS](http://angularjs.org) (by [Diego Vilar](https://github.com/diegovilar)) ([wiki](https://github.com/borisyankov/DefinitelyTyped/wiki/AngularJS-Definitions-Usage-Notes))
-* [async](https://github.com/caolan/async)
-* [Backbone.js](http://backbonejs.org/)
-* [Bootstrap](http://twitter.github.com/bootstrap/)
-* [CodeMirror](http://codemirror.net) (by [François de Campredon](https://github.com/fdecampredon))
-* [dynatree](http://code.google.com/p/dynatree/) (by [François de Campredon](https://github.com/fdecampredon))
-* [ember.js](http://emberjs.com/)
-* [Express](http://expressjs.com/)
-* [Fancybox](http://fancybox.net/)
-* [GoogleMaps](https://developers.google.com/maps/) (by [Esben Nepper](https://github.com/eNepper))
-* [Handlebars](http://handlebarsjs.com/)
-* [History.js](https://github.com/balupton/History.js/)
-* [Humane.js](http://wavded.github.com/humane-js/) (by [John Vrbanac](https://github.com/jmvrbanac))
-* [Impress.js](https://github.com/bartaz/impress.js)
-* [Jasmine](http://pivotal.github.com/jasmine/)
-* [jQuery.Globalize](https://github.com/jquery/globalize)
-* [jQuery](http://jquery.com/) (from TypeScript samples)
-* [jQuery Mobile](http://jquerymobile.com)
-* [jQuery UI](http://jqueryui.com/)
-* [Knockout.js](http://knockoutjs.com/)
-* [Knockout.Mapping](https://github.com/SteveSanderson/knockout.mapping)
-* [linq.js](http://linqjs.codeplex.com/) (by Marcin Najder (https://github.com/marcinnajder))
-* [Modernizr](http://modernizr.com/)
-* [Moment.js](https://github.com/timrwood/moment) (by [Michael Lakerveld](https://github.com/Lakerfield))
-* [Mustache.js](https://github.com/janl/mustache.js)
-* [Node.js](http://nodejs.org/) (from TypeScript samples)
-* [node_redis](https://github.com/mranney/node_redis)
-* [QUnit](http://qunitjs.com/) (by [Diullei Gomes](https://github.com/Diullei))
-* [Raphael](http://raphaeljs.com/) (by [CheCoxshall](https://github.com/CheCoxshall))
-* [Sammy.js](http://sammyjs.org/)
-* [Spin](http://fgnass.github.com/spin.js/)
-* [Underscore.js](http://underscorejs.org/)
+For more information see the [definitelytyped.org](http://definitelytyped.org) website.
 
-Next
-----
-* Chosen
-* Facebook SDK
-* jQuery.Validate
-* google.visualization
-* Meteor
-* PhoneGap
-* Isotope
-* Zepto
-* Socket.IO
-* MongoDB 
+## Usage
+
+Include a line like this:
+
+```typescript
+/// <reference path="jquery.d.ts" />
+```
+
+## Contributions
+
+DefinitelyTyped only works because of contributions by users like you!
+
+Please see the [contribution guide](http://definitelytyped.org/guides/contributing.html) on how to contribute to DefinitelyTyped.
+
+## How to get the definitions
+
+* Directly from the Github repos
+* [NuGet packages](http://nuget.org/packages?q=DefinitelyTyped)
+* [TypeScript Definition manager](https://github.com/DefinitelyTyped/tsd)
+
+## List of definitions
+
+* See [CONTRIBUTORS.md](CONTRIBUTORS.md)
+
+## Requested definitions
+
+Here is are the [currently requested definitions](https://github.com/borisyankov/DefinitelyTyped/labels/Definition%3ARequest).
+
+## License
+
+This project is licensed under the MIT license.
+
+Copyrights on the definition files are respective of each contributor listed at the beginning of each definition file.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-47495295-4/borisyankov/DefinitelyTyped)](https://github.com/igrigorik/ga-beacon)
